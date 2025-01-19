@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23272A;
+    color: #5865F2; /* Texte en blanc pour un meilleur contraste */
+}
+
+.chat-container {
+    width: 90%;
+    max-width: 400px;
+    background: #2c2f39;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.chat-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+.chat-log {
+    border: 1px solid #5865F2;
+    padding: 15px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #23272ae6; /* Légère transparence pour faire ressortir le logo dans le box */
+    background-image: url('img/logo.png'); /* Logo uniquement dans le box */
+    background-repeat: no-repeat;
+    background-position: center; /* Centrage de l'image */
+    background-size: 200px auto; /* Ajuste la taille de l'image (grande largeur) */
+    color: #FFFFFF; /* Texte en blanc pour un meilleur contraste */
+}
+.chat-log p {
+    margin: 10px 0;
+    word-wrap: break-word; /* Pour gérer les longues phrases */
+}
+
+.chat-log .user-message {
+    text-align: right;
+    color: #5865F2;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.chat-log .bot-reply {
+    text-align: left;
+    color: #28a745;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #5865F2;
+    border-radius: 8px;
+    background: #2c2f39;
+    color: #FFFFFF;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.chat-input input:focus {
+    border-color: #a0a7f3;
+    box-shadow: 0 0 5px #a0a7f3;
+}
+
+.chat-input button {
+    padding: 12px 20px; 
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background: #5865F2;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.chat-input button:hover {
+    background: #a0a7f3;
+    transform: scale(1.05);
+}
+
+.chat-input button:active {
+    transform: scale(0.95);
+    background: #7e85d7;
+}
+
+/* Ajout d'animations pour l'affichage des messages */
+.chat-log p {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
