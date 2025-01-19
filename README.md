@@ -127,7 +127,7 @@ async fn main() {
    ```
 
 ## Additional Resources
-A detailed presentation of the platform is available in the repository as a PDF file: `PhishingGuard_Presentation.pdf`.
+A detailed presentation of the platform is available in the repository as a PDF file: `PhishingGuard_chatbot.pdf`.
 
 ## Contact
 For any questions or support:
