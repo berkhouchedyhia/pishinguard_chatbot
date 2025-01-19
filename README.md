@@ -133,3 +133,4 @@ A detailed presentation of the platform is available in the repository as a PDF 
 For any questions or support:
 - **Email**: dyhiaberkhouche891gmail.com
 - **GitHub Issues**: [Open an Issue](https://github.com/berkhouchedyhia/pishinguard_chatbot))
+- **Lien de la vidéo**: (https://youtu.be/ZZAGUcJvD8Y)
