@@ -46,7 +46,7 @@ PhishingGuard is a cybersecurity platform with a primary focus on detecting and 
    ```bash
    cargo run
    ```
-   - The chatbot server will start at `http://localhost:5501`.
+   - The chatbot server will start at `http://localhost:3030`.
 
 4. **Testing the Chatbot**:
    - Use a tool like `curl` or Postman to send a request:
@@ -126,7 +126,10 @@ async fn main() {
    http://localhost:5000
    ```
 
+## Additional Resources
+A detailed presentation of the platform is available in the repository as a PDF file: `PhishingGuard_Presentation.pdf`.
+
 ## Contact
 For any questions or support:
-- **Email**: support@phishingguard.com
-- **GitHub Issues**: [Open an Issue](https://github.com/berkhouchedyhia/pishinguard_chatbot).
+- **Email**: dyhiaberkhouche891gmail.com
+- **GitHub Issues**: [Open an Issue](https://github.com/berkhouchedyhia/pishinguard_chatbot))
