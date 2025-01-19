@@ -22,10 +22,7 @@ async fn main() {
             ("hello".to_string(), "Bonjour ! Comment puis-je vous aider aujourd'hui ?".to_string()),
             ("phishing".to_string(), "Les utilisateurs ayant cliqué sur des liens de phishing sont : Dyhia et Salah.".to_string()),
             ("tu connais rust".to_string(), "un langage de programmation moderne connu pour sa sécurité et ses performances.".to_string()),
-            ("combien de contacts".to_string(), "contacts".to_string()),
-            ("combien d'apis".to_string(), "apis".to_string()),
-            ("combien de clics".to_string(), "clicks".to_string()),
-            ("details sur la plateforme".to_string(), "platform".to_string()),
+
         ]),
     }));
 
