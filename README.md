@@ -1,4 +1,4 @@
-# PhishingGuard Platform
+# PhishingGuard Platform chatbot
 
 PhishingGuard is a cybersecurity platform with a primary focus on detecting and mitigating phishing threats. The platform also integrates a powerful chatbot developed in **Rust** to provide real-time assistance for managing phishing incidents.
 
